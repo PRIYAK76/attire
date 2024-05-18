@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../../../components/layout/Layout'
 import data from "../../../datas/myntra.json";
-import { IoIosStar } from "react-icons/io";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { BsFillCartPlusFill } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
@@ -10,9 +9,6 @@ import Stack from "@mui/material/Stack";
 import "../collections.css";
 import { useDispatch } from "react-redux";
 // import { fetchProductRequest } from "../../actions/ProductActions";
-import Checkbox from '@mui/material/Checkbox';
-import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
-import Favorite from '@mui/icons-material/Favorite';
 import { add } from "../../../store/cartSlice";
 
 const Women = () => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../Product Page/ProductPage.css";
-import { FiChevronRight } from "react-icons/fi";
+// import { FiChevronRight } from "react-icons/fi";
 import { NavLink, useLocation } from "react-router-dom";
 import des from "./des";
 // import { IoIosStar } from "react-icons/io";
@@ -37,7 +37,7 @@ const ProductPage = () => {
         <div>
           {i?.ProductsDetails
             ?.filter((item) => {
-              return targetSegment == item.productId
+              return targetSegment === item.productId
             })
             .map((prod) => (
               <div>

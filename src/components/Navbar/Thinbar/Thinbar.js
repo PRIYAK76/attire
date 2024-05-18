@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Thinbar.css"
 import { BsBoxSeamFill } from "react-icons/bs";
-import { FaIndianRupeeSign } from "react-icons/fa6";
+// import { FaIndianRupeeSign } from "react-icons/fa6";
 
 const Thinbar = () => {
   return (

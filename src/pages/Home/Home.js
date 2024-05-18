@@ -1,20 +1,16 @@
 import React from "react";
 import "../Home/Home.css";
 import Herosectionimg3 from "../../Images/herosecimg1.png";
-import Herosectionimag5 from "../../Images/herosectionimag5.png";
-import heroimg6 from "../../Images/heroimg6.png"
-import heroimg7 from "../../Images/heroimg7.png"
 import Mainbanner from "../../Images/mainbannerattiremainbanner.png"
 import Homecardimg1 from "../../Images/Card-image-home-1.png";
 import Homecardimg2 from "../../Images/Card-image-home-2.png";
 import Homecardimg3 from "../../Images/Card-image-home-3.png";
 import Homecardimg4 from "../../Images/Card-image-home-4.png";
-import data from "../../datas/Collections-items.json";
+// import data from "../../datas/Collections-items.json";
 import Layout from "../../components/layout/Layout";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
-  const Explorecards1 = data.Exploreproductcards;
   return (
     <Layout>
 

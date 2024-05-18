@@ -14,7 +14,7 @@ const Cart = () => {
   const products = useSelector(state => state.cart);
   const dispatch = useDispatch();
   // const [counter, setCounter] = useState(1);
-  const [selectedValue, setSelectedValue] = useState(1);
+  // const [selectedValue, setSelectedValue] = useState(1);
 
   const [quantities, setQuantities] = useState({});
   // const handleSelectChange = (event) => {
@@ -160,7 +160,7 @@ const Cart = () => {
         <h6>Taxes, discounts and shipping calculated at checkout</h6>
       </div>
       <div className='d-flex justify-content-end container'>
-         {getTotalPrice() == 0 &&          
+         {getTotalPrice() === 0 &&          
          <button className='checkout-cart-btn my-3'>Check out</button>
           }
           {getTotalPrice() > 0 &&
