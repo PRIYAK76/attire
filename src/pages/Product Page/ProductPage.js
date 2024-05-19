@@ -35,8 +35,8 @@ const ProductPage = () => {
       {data?.productsimg?.map((i) => (
         <div>
           {i?.ProductsDetails
-            ?.filter((item) => {
-              return targetSegment === item.productId
+            .filter((item) => {
+              return targetSegment == item.productId
             })
             .map((prod) => (
               <div>
