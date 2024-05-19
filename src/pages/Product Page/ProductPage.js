@@ -18,7 +18,7 @@ const ProductPage = () => {
   const targetSegment = pathnameSegments[targetSegmentIndex] || "Not Found";
   // const [counter, setCounter] = useState(1);
   const [selectedSize, setSelectedSize] = useState("");
-
+  
   const dispatch = useDispatch();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -36,7 +36,8 @@ const ProductPage = () => {
         <div>
           {i?.ProductsDetails
             .filter((item) => {
-              return targetSegment == item.productId
+              // console.log(targetSegment === item.productId.toString())
+              return targetSegment === item.productId.toString()
             })
             .map((prod) => (
               <div>
