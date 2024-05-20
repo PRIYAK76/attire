@@ -97,7 +97,7 @@ const Navbar1 = () => {
           <div class="main_menu">
             <ul className="nav-items d-flex bd-highlight">
               <div>
-                <NavLink to="/home" className="text-decoration-none">
+                <NavLink to="/home" className="text-decoration-none mt-2">
                   <li className="list-unstyled">
                       <img src={MainLogo} className="navbar-brand" alt={MainLogo} />
                   </li>
