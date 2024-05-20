@@ -156,7 +156,7 @@ input {
 
   .card-img-top1 {
     /* width: 122.98px; */
-    height: 84.17px;
+    height: 84.17px !important;
   }
 
   .card-title {
