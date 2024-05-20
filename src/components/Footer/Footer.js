@@ -16,6 +16,11 @@ const Footer = () => {
            <FaRegCopyright/> Copyright 2024 Attire. All rights Reserved
           </p>
         </div>
+    <div className="my-3">
+          <p className="copy-right-text mt-2">
+           An eCommerce Website Done by <a href="https://www.linkedin.com/in/priyadharshini-krishnakumar-122883227/" target="_blank" rel="noopener noreferrer">Priyadharshini K</a>
+          </p>
+        </div>
         <div className="mt-2">
           <LuInstagram className="mx-2 footer-icons" size={22} />
           <BiLogoFacebook className="mx-2 footer-icons" size={22} />
