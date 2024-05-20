@@ -25,9 +25,9 @@ const Navbar1 = () => {
                 type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"              >
                 <RiMenu2Line size={25} />
               </button>
-              <NavLink to="/home" className="text-decoration-none">
+              <NavLink to="/home" className="text-decoration-none mt-2">
                   <li>
-                      <img src={MainLogo} className="navbar-brand mt-5" alt="mainfhureg" />
+                      <img src={MainLogo} className="navbar-brand" alt="mainfhureg" />
                   </li>
                 </NavLink>
               <NavLink to="/cartItems">
