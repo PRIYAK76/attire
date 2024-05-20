@@ -26,7 +26,7 @@ const Navbar1 = () => {
                 <RiMenu2Line size={25} />
               </button>
               <NavLink to="/home" className="text-decoration-none mt-2">
-                  <li>
+                  <li className="list-unstyled">
                       <img src={MainLogo} className="navbar-brand" alt="mainfhureg" />
                   </li>
                 </NavLink>
@@ -98,7 +98,7 @@ const Navbar1 = () => {
             <ul className="nav-items d-flex bd-highlight">
               <div>
                 <NavLink to="/home" className="text-decoration-none">
-                  <li>
+                  <li className="list-unstyled">
                       <img src={MainLogo} className="navbar-brand" alt={MainLogo} />
                   </li>
                 </NavLink>
