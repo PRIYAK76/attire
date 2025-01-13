@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./SignIn.css";
 import { NavLink } from "react-router-dom";
-import MainLogo from "../../Images/mainLogo.png"
-const SignIn = () => {
+import MainLogo from "../../Images/mainLogo.png";
 
+const SignIn = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [isValid, setIsValid] = useState(false);
